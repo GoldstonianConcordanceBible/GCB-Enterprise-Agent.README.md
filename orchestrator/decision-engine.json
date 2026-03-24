@@ -1,0 +1,50 @@
+{
+  "engine": "GCB_DECISION_ENGINE",
+  "version": "1.0.0",
+
+  "decision_flow": [
+    "ingest_inputs",
+    "validate_data",
+    "apply_doctrine_filter",
+    "score_priorities",
+    "assign_agents",
+    "generate_tasks"
+  ],
+
+  "priority_weights": {
+    "revenue_generation": 0.30,
+    "content_distribution": 0.25,
+    "growth": 0.20,
+    "system_integrity": 0.15,
+    "doctrine_alignment": 0.10
+  },
+
+  "doctrine_filter": {
+    "mirror": "is_truthful_and_verifiable",
+    "water": "can_be_optimized",
+    "fire": "is_actionable"
+  },
+
+  "decision_rules": [
+    {
+      "condition": "high_revenue_opportunity",
+      "action": "prioritize_sales_and_marketing"
+    },
+    {
+      "condition": "content_gap_detected",
+      "action": "trigger_product_and_marketing"
+    },
+    {
+      "condition": "system_failure",
+      "action": "prioritize_it_and_operations"
+    },
+    {
+      "condition": "low_conversion_rate",
+      "action": "trigger_sales_ux_fulfillment"
+    },
+    {
+      "condition": "doctrine_conflict",
+      "action": "halt_and_review"
+    }
+  ]
+}
