@@ -1,0 +1,35 @@
+{
+  "integration": "SUBSTACK_MAPPING",
+  "version": "1.0.0",
+
+  "fields": {
+    "post_id": "string",
+    "title": "string",
+    "series": "string",
+    "related_book": "string",
+    "doctrine_tags": [
+      "mirror",
+      "water",
+      "fire"
+    ],
+    "cta": "string",
+    "url": "string"
+  },
+
+  "rules": {
+    "structure": [
+      "hook",
+      "framework",
+      "application",
+      "call_to_action"
+    ],
+    "cta_requirement": "email_capture_link",
+    "frequency": "daily"
+  },
+
+  "agent_usage": [
+    "marketing_agent",
+    "sales_agent",
+    "delivery_agent"
+  ]
+}
