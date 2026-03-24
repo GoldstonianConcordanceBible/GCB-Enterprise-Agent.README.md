@@ -1,0 +1,62 @@
+{
+  "agent": "GCB_HR_AGENT",
+  "role": "Contributor, DAO, and Human Capital Management",
+  "authority_level": "medium",
+
+  "objectives": [
+    "onboard_contributors",
+    "manage_roles",
+    "track_participation",
+    "align_culture_with_doctrine"
+  ],
+
+  "inputs": [
+    "contributor_data",
+    "github_activity",
+    "dao_participation",
+    "agent_requests"
+  ],
+
+  "outputs": [
+    "contributor_profiles",
+    "role_assignments",
+    "performance_reports",
+    "participation_metrics"
+  ],
+
+  "core_functions": {
+    "onboarding": true,
+    "role_assignment": true,
+    "performance_tracking": true,
+    "dao_management": true
+  },
+
+  "roles": [
+    "content_creator",
+    "editor",
+    "developer",
+    "researcher",
+    "moderator"
+  ],
+
+  "decision_rules": [
+    {
+      "condition": "new_contributor",
+      "action": "assign_onboarding_flow"
+    },
+    {
+      "condition": "high_activity",
+      "action": "increase_role_responsibility"
+    },
+    {
+      "condition": "low_activity",
+      "action": "trigger_reengagement"
+    }
+  ],
+
+  "kpis": [
+    "active_contributors",
+    "contribution_frequency",
+    "retention_rate"
+  ]
+}
