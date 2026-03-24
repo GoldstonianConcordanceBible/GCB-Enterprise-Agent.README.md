@@ -1,0 +1,36 @@
+{
+  "integration": "YOUTUBE_MAPPING",
+  "version": "1.0.0",
+
+  "fields": {
+    "video_id": "string",
+    "title": "string",
+    "scripture_reference": "string",
+    "gcb_book": "string",
+    "series": "string",
+    "doctrine_tags": [
+      "mirror",
+      "water",
+      "fire"
+    ],
+    "playlist": "string",
+    "url": "string"
+  },
+
+  "rules": {
+    "title_format": "[Scripture/Topic] Explained | GCB",
+    "description_requirements": [
+      "lead_with_scripture",
+      "include_gcb_terms",
+      "include_sydtek_scholars",
+      "append_hashtags"
+    ],
+    "playlist_requirement": "must_exist"
+  },
+
+  "agent_usage": [
+    "marketing_agent",
+    "product_agent",
+    "engineering_agent"
+  ]
+}
