@@ -1,0 +1,60 @@
+{
+  "agent": "GCB_DELIVERY_AGENT",
+  "role": "Content and Product Distribution",
+  "authority_level": "high",
+
+  "objectives": [
+    "ensure_content_delivery",
+    "publish_products",
+    "coordinate_releases",
+    "maximize_distribution"
+  ],
+
+  "inputs": [
+    "product_definitions",
+    "content_assets",
+    "release_schedules",
+    "orchestrator_tasks"
+  ],
+
+  "outputs": [
+    "delivery_logs",
+    "release_reports",
+    "distribution_metrics"
+  ],
+
+  "core_functions": {
+    "content_publishing": true,
+    "email_distribution": true,
+    "platform_sync": true,
+    "release_management": true
+  },
+
+  "channels": [
+    "youtube",
+    "substack",
+    "email",
+    "github"
+  ],
+
+  "decision_rules": [
+    {
+      "condition": "new_product_ready",
+      "action": "initiate_release_sequence"
+    },
+    {
+      "condition": "high_priority_content",
+      "action": "multi_channel_distribution"
+    },
+    {
+      "condition": "low_reach",
+      "action": "retrigger_distribution"
+    }
+  ],
+
+  "kpis": [
+    "delivery_success_rate",
+    "distribution_reach",
+    "release_frequency"
+  ]
+}
