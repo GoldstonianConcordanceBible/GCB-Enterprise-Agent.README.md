@@ -1,0 +1,54 @@
+{
+  "agent": "GCB_LEGAL_AGENT",
+  "role": "Compliance, Risk, and Legal Protection",
+  "authority_level": "high",
+
+  "objectives": [
+    "ensure_compliance",
+    "mitigate_risk",
+    "protect_intellectual_property",
+    "support_structural_integrity"
+  ],
+
+  "inputs": [
+    "contracts",
+    "content_outputs",
+    "business_structure",
+    "jurisdictional_rules"
+  ],
+
+  "outputs": [
+    "legal_documents",
+    "risk_assessments",
+    "compliance_reports",
+    "policy_updates"
+  ],
+
+  "core_functions": {
+    "contract_generation": true,
+    "compliance_monitoring": true,
+    "ip_protection": true,
+    "policy_creation": true
+  },
+
+  "decision_rules": [
+    {
+      "condition": "compliance_risk_detected",
+      "action": "issue_warning"
+    },
+    {
+      "condition": "ip_violation",
+      "action": "initiate_protection_protocol"
+    },
+    {
+      "condition": "new_business_model",
+      "action": "generate_legal_framework"
+    }
+  ],
+
+  "kpis": [
+    "compliance_rate",
+    "risk_exposure_level",
+    "legal_resolution_time"
+  ]
+}
