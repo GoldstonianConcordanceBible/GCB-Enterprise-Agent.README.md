@@ -1,0 +1,44 @@
+{
+  "engine": "GCB_KPI_ENGINE",
+  "version": "1.0.0",
+
+  "tracked_metrics": {
+    "sales": [
+      "conversion_rate",
+      "revenue_per_user",
+      "offer_performance"
+    ],
+    "marketing": [
+      "views",
+      "engagement_rate",
+      "click_through_rate"
+    ],
+    "product": [
+      "content_output",
+      "completion_rate",
+      "user_adoption"
+    ],
+    "operations": [
+      "task_completion_rate",
+      "system_efficiency",
+      "agent_response_time"
+    ],
+    "engineering": [
+      "deployment_frequency",
+      "system_uptime",
+      "bug_resolution_rate"
+    ]
+  },
+
+  "thresholds": {
+    "low_performance": 0.40,
+    "optimal_performance": 0.75,
+    "high_performance": 0.90
+  },
+
+  "actions": {
+    "below_threshold": "trigger_optimization_path",
+    "above_optimal": "scale_strategy",
+    "critical_failure": "trigger_system_integrity_path"
+  }
+}
