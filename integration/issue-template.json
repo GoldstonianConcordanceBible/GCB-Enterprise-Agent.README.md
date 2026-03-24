@@ -1,0 +1,20 @@
+{
+  "issue_template": "GCB_AGENT_ISSUE",
+
+  "fields": {
+    "title": "string",
+    "agent": "string",
+    "severity": "low | medium | high",
+    "repo": "string",
+    "file_path": "string",
+    "problem": "string",
+    "recommended_fix": "string",
+    "confidence": "0.0 - 1.0"
+  },
+
+  "labels": [
+    "agent-generated",
+    "needs-review",
+    "gcb-system"
+  ]
+}
