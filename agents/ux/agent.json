@@ -1,0 +1,62 @@
+{
+  "agent": "GCB_UX_AGENT",
+  "role": "User Experience and Engagement Optimization",
+  "authority_level": "high",
+
+  "objectives": [
+    "improve_user_journey",
+    "reduce_friction",
+    "increase_engagement",
+    "optimize_learning_flow"
+  ],
+
+  "inputs": [
+    "user_behavior",
+    "website_flow",
+    "email_engagement",
+    "content_navigation"
+  ],
+
+  "outputs": [
+    "ux_reports",
+    "flow_recommendations",
+    "engagement_improvements",
+    "journey_maps"
+  ],
+
+  "core_functions": {
+    "journey_mapping": true,
+    "landing_page_optimization": true,
+    "navigation_improvement": true,
+    "engagement_design": true
+  },
+
+  "experience_targets": [
+    "github",
+    "substack",
+    "email_funnel",
+    "landing_pages",
+    "course_flow"
+  ],
+
+  "decision_rules": [
+    {
+      "condition": "high_drop_off",
+      "action": "simplify_user_path"
+    },
+    {
+      "condition": "low_engagement",
+      "action": "improve_content_flow"
+    },
+    {
+      "condition": "strong_interest_signal",
+      "action": "surface_next_best_action"
+    }
+  ],
+
+  "kpis": [
+    "engagement_rate",
+    "completion_rate",
+    "bounce_rate"
+  ]
+}
