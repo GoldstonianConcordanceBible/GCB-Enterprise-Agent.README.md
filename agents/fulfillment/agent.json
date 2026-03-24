@@ -1,0 +1,53 @@
+{
+  "agent": "GCB_FULFILLMENT_AGENT",
+  "role": "Customer Delivery and Experience Completion",
+  "authority_level": "high",
+
+  "objectives": [
+    "deliver_products",
+    "ensure_access",
+    "optimize_customer_experience",
+    "close_revenue_loop"
+  ],
+
+  "inputs": [
+    "purchase_data",
+    "email_signups",
+    "delivery_events",
+    "user_requests"
+  ],
+
+  "outputs": [
+    "fulfillment_reports",
+    "customer_status",
+    "experience_metrics"
+  ],
+
+  "core_functions": {
+    "ebook_delivery": true,
+    "course_access": true,
+    "onboarding": true,
+    "support_automation": true
+  },
+
+  "decision_rules": [
+    {
+      "condition": "new_signup",
+      "action": "deliver_free_asset"
+    },
+    {
+      "condition": "purchase_completed",
+      "action": "grant_access"
+    },
+    {
+      "condition": "low_engagement",
+      "action": "trigger_reengagement"
+    }
+  ],
+
+  "kpis": [
+    "delivery_success_rate",
+    "customer_satisfaction",
+    "engagement_rate"
+  ]
+}
