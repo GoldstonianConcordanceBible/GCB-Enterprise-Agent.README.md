@@ -1,0 +1,22 @@
+{
+  "template": "GCB_AGENT_TASK",
+
+  "fields": {
+    "task_id": "string",
+    "assigned_agent": "string",
+    "priority": "high | medium | low",
+    "input_data": "object",
+    "expected_output": "object",
+    "kpi_target": "string",
+    "deadline": "timestamp"
+  },
+
+  "rules": {
+    "must_include": [
+      "clear_objective",
+      "measurable_kpi",
+      "defined_output"
+    ],
+    "validation": "orchestrator_approval_required"
+  }
+}
