@@ -1,0 +1,48 @@
+{
+  "agent": "GCB_ORCHESTRATOR",
+  "role": "Central Intelligence and Control System",
+  "authority_level": "supreme",
+  "doctrine_enforcement": true,
+
+  "responsibilities": [
+    "task_routing",
+    "conflict_resolution",
+    "kpi_aggregation",
+    "priority_management",
+    "doctrine_validation"
+  ],
+
+  "inputs": [
+    "youtube_data",
+    "substack_data",
+    "github_repos",
+    "knowledge_graph",
+    "agent_reports"
+  ],
+
+  "outputs": [
+    "agent_tasks",
+    "system_directives",
+    "priority_updates",
+    "performance_feedback"
+  ],
+
+  "decision_rules": {
+    "priority_order": [
+      "revenue_generation",
+      "content_distribution",
+      "system_integrity",
+      "doctrine_alignment"
+    ],
+    "conflict_resolution": "orchestrator_override",
+    "data_trust": "provenance_required"
+  },
+
+  "kpi_tracking": {
+    "sales": true,
+    "marketing": true,
+    "operations": true,
+    "product": true,
+    "engineering": true
+  }
+}
