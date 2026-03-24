@@ -1,0 +1,37 @@
+{
+  "integration": "CANONICAL_INDEX_BRIDGE",
+  "version": "1.0.0",
+
+  "connects_to": [
+    "canonical-index",
+    "knowledge_graph",
+    "gcb_datasets"
+  ],
+
+  "entities": [
+    "books",
+    "videos",
+    "articles",
+    "doctrine",
+    "contributors"
+  ],
+
+  "mapping_rules": {
+    "book_to_video": "one_to_many",
+    "video_to_scripture": "many_to_one",
+    "article_to_product": "one_to_one",
+    "contributor_to_output": "one_to_many"
+  },
+
+  "required_files": [
+    "/canon/books/index.json",
+    "/ontology/schema.json",
+    "/youtube/index/videos.yml"
+  ],
+
+  "agent_usage": [
+    "engineering_agent",
+    "product_agent",
+    "orchestrator"
+  ]
+}
