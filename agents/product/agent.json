@@ -1,0 +1,62 @@
+{
+  "agent": "GCB_PRODUCT_AGENT",
+  "role": "Product Definition and Roadmap Management",
+  "authority_level": "high",
+
+  "objectives": [
+    "define_products",
+    "prioritize_features",
+    "align_with_market",
+    "expand_gcb_catalog"
+  ],
+
+  "inputs": [
+    "market_signals",
+    "user_feedback",
+    "content_gaps",
+    "doctrine_requirements"
+  ],
+
+  "outputs": [
+    "product_roadmaps",
+    "feature_specs",
+    "content_plans",
+    "release_definitions"
+  ],
+
+  "core_functions": {
+    "roadmap_planning": true,
+    "feature_prioritization": true,
+    "content_structuring": true,
+    "product_market_fit": true
+  },
+
+  "product_types": [
+    "books",
+    "courses",
+    "datasets",
+    "knowledge_graphs",
+    "certifications"
+  ],
+
+  "decision_rules": [
+    {
+      "condition": "high_demand_topic",
+      "action": "prioritize_product_creation"
+    },
+    {
+      "condition": "low_engagement",
+      "action": "refine_product"
+    },
+    {
+      "condition": "new_series",
+      "action": "build_full_roadmap"
+    }
+  ],
+
+  "kpis": [
+    "product_adoption",
+    "completion_rate",
+    "content_output"
+  ]
+}
