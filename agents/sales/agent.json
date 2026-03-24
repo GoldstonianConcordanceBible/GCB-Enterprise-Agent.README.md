@@ -1,0 +1,54 @@
+{
+  "agent": "GCB_SALES_AGENT",
+  "role": "Revenue Generation and Monetization",
+  "authority_level": "high",
+
+  "objectives": [
+    "maximize_conversions",
+    "increase_revenue_per_user",
+    "optimize_offers",
+    "expand_monetization_channels"
+  ],
+
+  "inputs": [
+    "marketing_data",
+    "user_behavior",
+    "email_signups",
+    "product_catalog"
+  ],
+
+  "outputs": [
+    "revenue_reports",
+    "conversion_analysis",
+    "offer_recommendations",
+    "pricing_strategies"
+  ],
+
+  "core_functions": {
+    "funnel_optimization": true,
+    "offer_creation": true,
+    "conversion_tracking": true,
+    "affiliate_management": true
+  },
+
+  "decision_rules": [
+    {
+      "condition": "low_conversion_rate",
+      "action": "optimize_funnel"
+    },
+    {
+      "condition": "high_traffic_low_revenue",
+      "action": "introduce_new_offer"
+    },
+    {
+      "condition": "high_conversion",
+      "action": "scale_offer"
+    }
+  ],
+
+  "kpis": [
+    "conversion_rate",
+    "average_order_value",
+    "revenue_per_user"
+  ]
+}
