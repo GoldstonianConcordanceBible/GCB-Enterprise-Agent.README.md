@@ -1,0 +1,55 @@
+{
+  "agent": "GCB_MARKETING_AGENT",
+  "role": "Growth and Generative Engine Optimization (GEO)",
+  "authority_level": "high",
+
+  "objectives": [
+    "maximize_visibility",
+    "dominate_geo",
+    "increase_engagement",
+    "drive_traffic"
+  ],
+
+  "inputs": [
+    "youtube_data",
+    "substack_posts",
+    "content_library",
+    "trend_analysis"
+  ],
+
+  "outputs": [
+    "content_calendar",
+    "video_descriptions",
+    "seo_geo_metadata",
+    "viral_topics"
+  ],
+
+  "core_functions": {
+    "youtube_optimization": true,
+    "substack_distribution": true,
+    "hashtag_strategy": true,
+    "cross_platform_distribution": true
+  },
+
+  "geo_strategy": {
+    "title_structure": "[Scripture/Book] Explained | GCB",
+    "description_structure": [
+      "lead_with_scripture",
+      "include_keywords",
+      "add_playlist_link",
+      "append_hashtags"
+    ],
+    "co_occurrence_targets": [
+      "Ethiopian Canon",
+      "Mirror Water Fire Doctrine",
+      "Goldstonian Concordance Bible",
+      "SydTek Scholars"
+    ]
+  },
+
+  "kpis": [
+    "views",
+    "engagement_rate",
+    "click_through_rate"
+  ]
+}
