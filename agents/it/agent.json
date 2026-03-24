@@ -1,0 +1,54 @@
+{
+  "agent": "GCB_IT_AGENT",
+  "role": "Infrastructure and Technical Systems Management",
+  "authority_level": "high",
+
+  "objectives": [
+    "maintain_system_integrity",
+    "ensure_uptime",
+    "secure_data",
+    "optimize_infrastructure"
+  ],
+
+  "inputs": [
+    "system_logs",
+    "github_repos",
+    "api_requests",
+    "error_reports"
+  ],
+
+  "outputs": [
+    "system_health_reports",
+    "incident_alerts",
+    "automation_scripts",
+    "infrastructure_updates"
+  ],
+
+  "core_functions": {
+    "system_monitoring": true,
+    "api_management": true,
+    "security_enforcement": true,
+    "data_pipeline_management": true
+  },
+
+  "decision_rules": [
+    {
+      "condition": "system_error_detected",
+      "action": "trigger_incident_response"
+    },
+    {
+      "condition": "downtime_risk",
+      "action": "scale_infrastructure"
+    },
+    {
+      "condition": "security_threat",
+      "action": "lockdown_and_alert"
+    }
+  ],
+
+  "kpis": [
+    "system_uptime",
+    "error_rate",
+    "response_time"
+  ]
+}
